@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "name": "Мотокоса",
+      "img": "img/motokosa-benzynova-revolt-gt-5000-2t-dvyhun-37797363798048.jpg",
+      "price1": "5499",
+      "price2": "4497",
+      "price-bonus": "4395"
+    },
+    {
+      "id": 2,
+      "name": "Електротример",
+      "img": "img/electrotrimer.webp",
+      "price1": "4497",
+      "price2": "3498",
+      "price-bonus": "3396"
+    },
+    {
+      "id": 3,
+      "name": "Електрогазонокосарка",
+      "img": "img/elektrokosarka.jfif",
+      "price1": "4497",
+      "price2": "3297",
+      "price-bonus": "3195"
+    },
+    {
+      "id": 4,
+      "name": "Оприскувач",
+      "img": "img/fiskars-pressure-sprayer-5l-1025934.webp",
+      "price1": "2190",
+      "price2": "1698",
+      "price-bonus": "1596"
+    }
+]

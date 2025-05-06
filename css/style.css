@@ -1,0 +1,154 @@
+body {
+  font-family: sans-serif;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+content {
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+div {
+  display: block;
+}
+
+.title {
+  background: rgb(235, 48, 48);
+  color: white;
+  width: auto;
+  padding: 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.item {
+  width: 200px;
+  height: 420px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 5px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.item-details {
+  text-align: right;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+  font-size: 20px;
+  
+}
+
+.price-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid darkgray;
+}
+
+.old-price {
+    display: inline-block;
+    background-color: #f0f0f0; /* Сіра рамка */
+    padding: 4px 8px; /* Відступи всередині рамки */
+    border: 1px solid #ccc; /* Рамка */
+    text-decoration: line-through; /* Перекреслення тексту */
+    color: #888; /* Колір тексту */
+    margin-bottom: 8px; /* Відступ знизу */
+}
+
+.current-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  border: 2px solid red; /* Червона рамка */
+  padding: 5px; /* Відступи всередині рамки */
+  border-radius: 4px; /* Згладжені кути */
+  background-color: #ffe6e6; /* Світло-червоний фон */
+}
+
+.discount {
+  background-color: rgb(235, 48, 48);
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 4px;
+  margin-top: 10px;
+  border: 1px solid darkgray;
+}
+
+.discount span {
+  font-size: 18px;
+}
+
+.contacts p {
+  margin: 3px;
+}
+
+.contacts p:first-child {
+  font-weight: bold;
+}
+
+.contacts p:last-child {
+  border-left: 3px solid rgb(235, 48, 48);
+  padding-left: 5px;
+}
+
+.license {
+  font-size: 9px;
+  text-align: justify;
+  color: rgb(120, 120, 120);
+}
+
+.item img {
+  width: 170px;
+  height: auto;
+  margin: 10px 0;
+}
+
+#items-container {
+    display: flex;
+    flex-wrap: wrap; /* Дозволяє переносити елементи на новий рядок */
+    gap: 16px; /* Відстань між елементами */
+    justify-content: space-between; /* Розподіл елементів по горизонталі */
+}
+
+.item {
+    flex: 0 1 calc(50% - 16px); /* Кожен елемент займає 50% ширини мінус відступ */
+    box-sizing: border-box; /* Враховує padding і border у ширині */
+    border: 1px solid #ccc; /* Додатковий стиль для рамки */
+    padding: 16px; /* Відступи всередині елемента */
+    text-align: center; /* Центрування тексту */
+}
